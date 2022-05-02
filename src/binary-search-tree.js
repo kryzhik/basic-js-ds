@@ -139,7 +139,7 @@ class BinarySearchTree {
 
   root() {
     
-    if (this.mainRoot === null) return 'no root';
+    if (this.mainRoot === null) return null;
     else return this.mainRoot.data;
     
   }

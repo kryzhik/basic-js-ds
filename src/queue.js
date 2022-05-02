@@ -72,7 +72,7 @@ class Queue {
     //     JSON.stringify(current.value);
     //     current = current.next;
     // }
-    return JSON.stringify(this);
+    return JSON.stringify(this.head);
   }
 
   enqueue(value) {
