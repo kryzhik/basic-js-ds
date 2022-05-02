@@ -68,6 +68,7 @@ class Queue {
   }
   getUnderlyingList() {
     // let current = this.head;
+    
     // while (current) {
     //     JSON.stringify(current.value);
     //     current = current.next;
@@ -109,4 +110,4 @@ arr.enqueue(2);
 arr.enqueue(2);
 arr.getUnderlyingList();
 arr.dequeue();
-console.log(arr.getUnderlyingList())
+console.log(arr)
